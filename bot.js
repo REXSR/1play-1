@@ -26,7 +26,7 @@ client.on('ready', () => {
 
 client.on('ready', () => {
 
-  client.user.setGame('SY.','https://www.twitch.tv/peery13');
+  client.user.setGame('1play','https://www.twitch.tv/peery13');
 
 });
 
@@ -494,4 +494,4 @@ client.on('message', message => {
 
 });
 
-client.login(NDcwMjc1MjYwMjQwMTAxMzk3.DjT50Q.AQXse05HGvGbeLmKyEkFGVQVaY8);  //اياكككك تلعب هنا لا تحط توكنك هنا
+client.login(process.env.BOT_TOKEN);  //اياكككك تلعب هنا لا تحط توكنك هنا
